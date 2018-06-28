@@ -6,7 +6,7 @@
  	* Etract Patches from Seismic Gather
  	* Patches Augment
  * **Data Denoise**
- 	* Dictionary Learning  
+ 	* [Dictionary Learning](https://github.com/maihao14/Lina-Seismic-Playground/blob/master/ODLdenoising.ipynb)  
     * AutoEncoder
  	* CNN
  	* Resnet 

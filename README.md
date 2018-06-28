@@ -7,7 +7,7 @@
  	* Patches Augment
  * **Data Denoise**
  	* [Dictionary Learning](https://github.com/maihao14/Lina-Seismic-Playground/blob/master/ODLdenoising.ipynb)  
-    * AutoEncoder
+    * [AutoEncoder](https://github.com/maihao14/Lina-Seismic-Playground/blob/master/AutoEncoder.mlx)
  	* CNN
  	* Resnet 
  

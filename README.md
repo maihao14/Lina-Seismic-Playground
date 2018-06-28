@@ -6,7 +6,8 @@
  	* Etract Patches from Seismic Gather
  	* Patches Augment
  * **Data Denoise**
- 	* AutoEncoder
+ 	* Dictionary Learning
+  * AutoEncoder
  	* CNN
  	* Resnet  
 ********

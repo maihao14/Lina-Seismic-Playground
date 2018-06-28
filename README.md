@@ -6,10 +6,11 @@
  	* Etract Patches from Seismic Gather
  	* Patches Augment
  * **Data Denoise**
- 	* Dictionary Learning
-  * AutoEncoder
+ 	* Dictionary Learning  
+    * AutoEncoder
  	* CNN
- 	* Resnet  
+ 	* Resnet 
+ 
 ********
  If you wanna join the playground project, contact me at *maihao14@126.com*  
  Later I will push the code in *Matlab Python* and *Jupyter Notebook* for your reference.

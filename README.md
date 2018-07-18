@@ -10,8 +10,10 @@
     * [AutoEncoder](https://github.com/maihao14/Lina-Seismic-Playground/blob/master/AutoEncoder.mlx)
  	* CNN
  	* Resnet 
- * **Waveform Detection**
-  	* First Break
+ * [**Waveform Detection**](https://github.com/maihao14/Lina-Seismic-Playground/tree/master/WaveDetection)
+  	* [First Break](https://github.com/maihao14/Lina-Seismic-Playground/blob/master/WaveDetection/FirstArrivalTransferLearning.pdf)
 ********
- If you wanna join the playground project, contact me at *maihao14@126.com*  
- Later I will push the code in *Matlab Python* and *Jupyter Notebook* for your reference.
+ If you wanna join the playground project or have any problem about it, contact me at *maihao14@126.com*  
+ **Copyright**   China University of Petroleum(CUP) SiyuanCao Lab 2018    
+ Later I will push the code in *Matlab Python* and *Jupyter Notebook* for your reference.  
+ **Citation** is needed if you use the repository for your research or any commercial application.

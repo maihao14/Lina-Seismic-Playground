@@ -12,6 +12,8 @@
  	* Resnet 
  * [**Waveform Detection**](https://github.com/maihao14/Lina-Seismic-Playground/tree/master/WaveDetection)
   	* [First Break](https://github.com/maihao14/Lina-Seismic-Playground/blob/master/WaveDetection/FirstArrivalTransferLearning.pdf)
+ * **Miscellaneous**
+   * Ancient Monument Word Inpainting
 ********
  If you wanna join the playground project or have any problem about it, contact me at *maihao14@126.com*  
  **Copyright**   China University of Petroleum(CUP) SiyuanCao Lab 2018    

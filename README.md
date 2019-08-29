@@ -15,7 +15,7 @@
  * **Miscellaneous**
    * Ancient Monument Word Inpainting
 ********
- If you wanna join the playground project or have any problem about it, contact me at *maihao14@126.com*  
- **Copyright**   China University of Petroleum(CUP) SiyuanCao Lab 2018    
+ If you wanna join the playground project or have any problem about it, contact me at *hmai090@uottawa.ca*  
+ **Copyright**      
  Later I will push the code in *Matlab Python* and *Jupyter Notebook* for your reference.  
  **Citation** is needed if you use the repository for your research or any commercial application.

@@ -12,5 +12,8 @@ Fetch Earthquake Data
   
   You can complete a search with the [interactive interface](http://isc-mirror.iris.washington.edu/iscbulletin/search/bulletin/interactive/), or use the standard [search page](http://isc-mirror.iris.washington.edu/iscbulletin/search/bulletin/).<br>
   Here I show a rectangle region in western Canada to output ISC reviewed catalog:<br>
-  ![pic](ISCSelectRegion.png?picture=ture)
+  ![pic](ISCSelectRegion.png?picture=ture)<br>
+  
+  Click Output and you can get the information you requested:<br>
+  ![pic2](ISCQuery.jpg?picture=ture)<br>
   

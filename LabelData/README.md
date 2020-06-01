@@ -8,7 +8,7 @@ In this demo, I'll cover how to organize the raw data into the same dimensions f
 
 ## Getting Started 使用指南
 
-项目使用条件、如何安装部署、怎样运行使用以及使用演示
+Install
 
 ### Prerequisites 项目使用条件
 

@@ -1,10 +1,10 @@
-# How to label Seismic Data for Deep Learning
+# How to Label Seismic Data for Deep Learning
 
 > This is an example of how to make label datasets for deep learning.
 
 In this demo, I'll cover how to organize the raw data into the same dimensions for making training sets. How to convert a SAC file to a Python npz file, and record waveform information simultaneously.
 
-![](https://github.com/dbader/readme-template/raw/master/header.png)
+![image](https://github.com/maihao14/Lina-Seismic-Playground/blob/master/LabelData/IntroIMG.png)
 
 ## Getting Started 使用指南
 

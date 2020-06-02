@@ -103,14 +103,14 @@ Output:
 Output folder [Label2008](https://github.com/maihao14/Lina-Seismic-Playground/tree/master/LabelData/Label2008) contains over 50,000 standard waveform samplings with P/S arrival time. <br>
 
 ### Save events information into CSV files:
-#### [NA2008.csv]()
+#### [NA2008.csv](https://github.com/maihao14/Lina-Seismic-Playground/blob/master/LabelData/NA2008.csv)
 
 |  fname   | itp  | its | channels |
 |  ----  | ----  |  ---- |  ---- |
 |  II.PFO.00_2009-03-20T.npz|  676| 4438| BHZ_LHZ|
 |  IM.NV01._2009-01-19T.npz| 751|7756 |SHZ |
 
-#### [NA2008Stats.csv]()
+#### [NA2008Stats.csv](https://github.com/maihao14/Lina-Seismic-Playground/blob/master/LabelData/NA2008Stats.csv)
 
 |  fname   | itp  | its | channels |network|magnitude|
 |  ----  | ----  |  ---- |  ---- |---- |  ---- |

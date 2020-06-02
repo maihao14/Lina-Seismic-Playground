@@ -84,7 +84,7 @@ from LabelSAC2NPZ.plot_raw_wave import plot_raw_wave
 plot_raw_wave(st)
 ```
 Output:<br>
-![Image]()
+![Image](https://github.com/maihao14/Lina-Seismic-Playground/blob/master/LabelData/RawIMG.png)
 
 ## Deployment 部署方法
 ### Create same size labels
@@ -98,9 +98,8 @@ from LabelSAC2NPZ import createlabel
 LabelSAC2NPZ.Produce('./NA2008/','./Label2008/')
 ```
 Output:
-![image]()
+![image](https://github.com/maihao14/Lina-Seismic-Playground/blob/master/LabelData/SampleIMG.png)
 Output folder [Label2008](https://github.com/maihao14/Lina-Seismic-Playground/tree/master/LabelData/Label2008) contains over 50,000 standard waveform samplings with P/S arrival time. <br>
-![image]()
 
 ### Save events information into CSV files:
 #### [NA2008.csv]()
@@ -110,7 +109,7 @@ Output folder [Label2008](https://github.com/maihao14/Lina-Seismic-Playground/tr
 |  |  | | |
 |  | | | |
 
-#### [NA2008Stats.csv]() 
+#### [NA2008Stats.csv]()
 
 |  fname   | itp  | its | channels |
 |  ----  | ----  |  ---- |  ---- |

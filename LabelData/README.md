@@ -1,3 +1,4 @@
+![img](https://github.com/maihao14/Lina-Seismic-Playground/blob/master/LabelData/PrefaceIMG.png) <br>
 # How to Label Seismic Data for Deep Learning
 
 > This is an example of how to make label datasets for deep learning.

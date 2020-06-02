@@ -98,7 +98,8 @@ from LabelSAC2NPZ import createlabel
 LabelSAC2NPZ.Produce('./NA2008/','./Label2008/')
 ```
 Output:
-![image](https://github.com/maihao14/Lina-Seismic-Playground/blob/master/LabelData/SampleIMG.png)
+![image](https://github.com/maihao14/Lina-Seismic-Playground/blob/master/LabelData/SampleIMG.png) <br>
+
 Output folder [Label2008](https://github.com/maihao14/Lina-Seismic-Playground/tree/master/LabelData/Label2008) contains over 50,000 standard waveform samplings with P/S arrival time. <br>
 
 ### Save events information into CSV files:
@@ -106,15 +107,15 @@ Output folder [Label2008](https://github.com/maihao14/Lina-Seismic-Playground/tr
 
 |  fname   | itp  | its | channels |
 |  ----  | ----  |  ---- |  ---- |
-|  |  | | |
-|  | | | |
+|  II.PFO.00_2009-03-20T.npz|  676| 4438| BHZ_LHZ|
+|  IM.NV01._2009-01-19T.npz| 751|7756 |SHZ |
 
 #### [NA2008Stats.csv]()
 
-|  fname   | itp  | its | channels |
-|  ----  | ----  |  ---- |  ---- |
-|  |  | | |
-|  | | | |
+|  fname   | itp  | its | channels |network|magnitude|
+|  ----  | ----  |  ---- |  ---- |---- |  ---- |
+|  II.PFO.00_2009-03-20T.npz |676|4438 | BHZ_LHZ|II|3.2|
+| IM.NV01._2009-01-19T.npz |751 |7756 | SHZ|IM|1.7|
 
 ## Contributing 贡献指南
 

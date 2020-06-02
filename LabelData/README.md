@@ -8,39 +8,114 @@ In this demo, I'll cover how to organize the raw data into the same dimensions f
 
 ## Getting Started 使用指南
 
-Install
+Install Package: [/LabelSAC2NPZ/](https://github.com/maihao14/Lina-Seismic-Playground/tree/master/LabelData/LabelSAC2NPZ).
+
+```
+python setup.py install
+```
+
+'''
+
 
 ### Prerequisites 项目使用条件
 
-你需要安装什么软件以及如何去安装它们。
+[Obspy](https://github.com/obspy/obspy)
 
 ```
-Give examples
+pip install obspy
 ```
 
 ### Installation 安装
 
-通过一步步实例告诉你如何安装部署、怎样运行使用。
+[Download](https://github.com/maihao14/Lina-Seismic-Playground/tree/master/LabelData) LabelData/ this folder into your local address. Then you can setup above Package:
+[/LabelSAC2NPZ/](https://github.com/maihao14/Lina-Seismic-Playground/tree/master/LabelData/LabelSAC2NPZ).
 
 OS X & Linux:
 
 ```sh
-Give the example
+cd ./where_you_download_this_folder/LabelData/
+python setup.py install
 ```
 
 Windows:
 
 ```sh
-Give the example
+cd ./where_you_download_this_folder/LabelData/
+python setup.py install
 ```
 
 ### Usage example 使用示例
 
-给出更多使用演示和截图，并贴出相应代码。
+### Data Quick View
+Read a SAC sample in NA2008 folder. Check trace information in .sac file.
+
+```
+from obspy import read
+import matplotlib.pyplot as plt
+import os
+import numpy as np
+from obspy import read
+path = './NA2008/'
+file = '*_2008-04-15T05_49_17.307_2008-04-15T05_52_34.529.sac'
+file1 = '*_2008-04-15T06_56_51.087_2008-04-15T07_02_13.673.sac'
+file2 = '*_2008-04-30T03_05_15.335_2008-04-30T03_10_44.451.sac'
+file3 = '*_2008-12-06T04_19_02.862_2008-12-06T04_22_35.229.sac'
+st = read(path+file, debug_headers=True)
+#st = read(path1+file3, debug_headers=True)
+
+#take first compponent as example:
+print('Network: ', st[0].stats.sac.knetwk)
+print('Channel: ',st[0].stats.sac.kcmpnm)
+print('Event Magnitude: ',st[0].stats.sac.mag )
+print('Samplerate: ',st[0].stats.sampling_rate)
+print('Number of sample points: ',st[0].stats.npts)
+```
+Output:
+
+Network:  CI <br>
+Channel:  BHZ<br>
+Event Magnitude:  3.2<br>
+Samplerate:  40.0<br>
+Number of sample points:  7889<br>
+
+### Plot a simple graph of the current traces
+```
+from LabelSAC2NPZ.plot_raw_wave import plot_raw_wave
+plot_raw_wave(st)
+```
+Output:<br>
+![Image]()
 
 ## Deployment 部署方法
+### Create same size labels
+We set default trace size: 9000 points <br>
+Accepted channels: >= 1.0Hz sampling rate <br>
+From folder: /NA2008/ read SAC files <br>
+Convert to 9000 points channels samples<br>
+Save to folder: /Label2008/<br>
+```
+from LabelSAC2NPZ import createlabel
+LabelSAC2NPZ.Produce('./NA2008/','./Label2008/')
+```
+Output:
+![image]()
+Output folder [Label2008](https://github.com/maihao14/Lina-Seismic-Playground/tree/master/LabelData/Label2008) contains over 50,000 standard waveform samplings with P/S arrival time. <br>
+![image]()
 
-部署到生产环境注意事项。
+### Save events information into CSV files:
+#### [NA2008.csv]()
+
+|  fname   | itp  | its | channels |
+|  ----  | ----  |  ---- |  ---- |
+|  |  | | |
+|  | | | |
+
+#### [NA2008Stats.csv]() 
+
+|  fname   | itp  | its | channels |
+|  ----  | ----  |  ---- |  ---- |
+|  |  | | |
+|  | | | |
 
 ## Contributing 贡献指南
 
